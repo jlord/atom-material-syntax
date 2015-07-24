@@ -1,15 +1,15 @@
 {
-  "name": "atom-material-syntax",
+  "name": "jlord-material-syntax",
   "theme": "syntax",
   "version": "0.2.1",
-  "description": "A dark syntax theme for Atom that uses Google's Material Design color palette",
+  "description": "A neon party light syntax fork of Material Syntax",
   "keywords": [
     "syntax",
     "theme",
     "material",
     "material design"
   ],
-  "repository": "https://github.com/silvestreh/atom-material-syntax",
+  "repository": "http://github.com/jlord/atom-material-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=0.174.0 <2.0.0"

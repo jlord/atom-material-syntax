@@ -5,29 +5,30 @@
 @syntax-bracket-matcher-background-color: lighten(@syntax-background-color, 8%);
 
 // General colors
-@syntax-text-color: #CDD3DE;
-@syntax-cursor-color: #c0c5ce;
-@syntax-selection-color: rgba(128, 203, 196, 0.13);
-@syntax-background-color: #263238;
+@syntax-text-color: #555;
+@syntax-cursor-color: black;
+@syntax-selection-color: #afc4da;
+@syntax-selection-flash-color: #69c;
+@syntax-background-color: white;
 
 // Guide colors
-@syntax-wrap-guide-color: #65737e;
-@syntax-indent-guide-color: #65737e;
-@syntax-invisible-character-color: #65737e;
+@syntax-wrap-guide-color: rgba(85, 85, 85, .2);
+@syntax-indent-guide-color: rgba(85, 85, 85, .2);
+@syntax-invisible-character-color: rgba(85, 85, 85, .2);
 
 // For find and replace markers
-@syntax-result-marker-color: #65737e;
-@syntax-result-marker-color-selected: #CDD3DE;
+@syntax-result-marker-color: #999;
+@syntax-result-marker-color-selected: black;
 
 // Gutter colors
-@syntax-gutter-text-color: #CDD3DE;
-@syntax-gutter-text-color-selected: #CDD3DE;
-@syntax-gutter-background-color: #263238;
-@syntax-gutter-background-color-selected: rgba(0, 0, 0, 0.19);
+@syntax-gutter-text-color: @syntax-text-color;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: white;
+@syntax-gutter-background-color-selected: rgba(255, 255, 134, 0.34);
 
 // For git diff info. i.e. in the gutter
 // These are static and were not extracted from your textmate theme
-@syntax-color-renamed: #64B5F6;
-@syntax-color-added: #9CCC65;
-@syntax-color-modified: #FFEE58;
-@syntax-color-removed: #EF5350;
+@syntax-color-renamed: #96CBFE;
+@syntax-color-added: #718C00;
+@syntax-color-modified: #ff982d;
+@syntax-color-removed: #D14;
